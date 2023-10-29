@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login Modal</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="random-content">
+        <h1>Welcome to the My Page</h1>
+        <p>let's delve into the fascinating world of bioluminescence. 
+            Bioluminescence is a mesmerizing natural phenomenon where living organisms emit light. 
+            Found in a variety of marine creatures such as jellyfish, fireflies, and deep-sea creatures like anglerfish, this captivating ability has evolved for diverse purposes. 
+            Some organisms use bioluminescence as a means of communication, creating intricate light displays to attract mates or deter predators.
+            In the darkest depths of the ocean, bioluminescence serves as a survival strategy, allowing organisms to camouflage or lure prey. 
+            This magical glow has not only captured the curiosity of scientists but also continues to inspire artists and storytellers, showcasing the remarkable beauty and complexity of life on Earth.</p>
+    </div>
+    <!-- <button id="openModalBtn">Login</button> -->
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close" id="closeModalBtn">&times;</span>
+            <div id="signInForm">
+                <h2>Login</h2>
+                <form id="loginForm"> <!-- Unique ID for the login form -->
+                    <input type="text" placeholder="Username" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <div class="social-login">
+                    <p>Or Login with:</p>
+                    <button id="google-login" class="logo-button google"></button>
+                    <button id="linkedin-login" class="logo-button linkedin"></button>
+                    <button id="facebook-login" class="logo-button facebook"></button>
+                    <button id="github-login" class="logo-button github"></button>
+                </div>
+                <p>Don't have an account? <a id="registrationLink">Register</a></p>
+            </div>
+            <div id="registrationForm" style="display: none;">
+                <h2>Register</h2>
+                <form id="registrationForm"> <!-- Unique ID for the registration form -->
+                    <input type="text" placeholder="Username" required>
+                    <input type="text" placeholder="Email" required>
+                    <input type="number" placeholder="Phonenumber" required>
+                    <input type="password" placeholder="Password" required>
+                    <button type="submit">Register</button>
+                </form>
+                <div class="social-login">
+                    <p>Or Login with:</p>
+                    <button id="google-login" class="logo-button google"></button>
+                    <button id="linkedin-login" class="logo-button linkedin"></button>
+                    <button id="facebook-login" class="logo-button facebook"></button>
+                    <button id="github-login" class="logo-button github"></button>
+                </div>
+                <p>Already have an account? <a id="signInLink">Sign In</a></p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

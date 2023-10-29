@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #362f2f;
+    width: 300px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.modal-tab {
+    display: none;
+}
+.random-content{
+    text-align: center;
+    font-size: large;
+}
+p {
+    display: block;
+    margin-block-start: 2em;
+    margin-block-end: 1em;
+    margin-inline-start: 50px;
+    margin-inline-end: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+form input {
+    width: 90%;
+    padding: 10px 10px;
+    margin: 10px 0px;
+    border: 1px solid #aba8a8;
+    border-radius: 5px;
+}
+
+form button {
+    width: 97%;
+    padding: 10px;
+    background-color: #1566bd;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.social-login {
+    margin-top: 20px;
+}
+
+.social-login button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #f6f2f2;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logo-button {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+}
+.google {
+    background-image: url('https://www.freepnglogos.com/uploads/google-logo-png/google-logo-png-suite-everything-you-need-know-about-google-newest-0.png');
+}
+
+.linkedin {
+    background-image: url('https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png'); 
+}
+
+.facebook {
+    background-image: url('https://img.freepik.com/premium-vector/vinnytsia-ukraine-april-27-2023-popular-social-media-icon-facebook_545793-1680.jpg?size=626&ext=jpg&ga=GA1.1.1792322010.1687884062&semt=ais'); 
+}
+.github {
+    background-image: url('https://img.icons8.com/?size=48&id=AZOZNnY73haj&format=png'); 
+}
